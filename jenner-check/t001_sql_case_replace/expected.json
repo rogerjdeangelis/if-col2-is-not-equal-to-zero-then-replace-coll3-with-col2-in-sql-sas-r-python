@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-27T09:14:42Z",
+  "_captured_run_id": "r_ee4cb0bda0a145978a5e0e94e974c1ee",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 4 rows from DATALINES.",
+    "NOTE: Table want created.",
+    "NOTE: PROC PRINT completed: 4 observations printed, 3 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

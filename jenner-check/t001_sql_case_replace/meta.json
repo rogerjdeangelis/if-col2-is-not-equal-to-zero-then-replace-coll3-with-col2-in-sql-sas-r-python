@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_sql_case_replace",
+  "source_file": "Breadcrumbsif-col2-is-not-equal-to-zero-then-replace-coll3-with-col2-in-sql-sas-r-python.sas",
+  "source_blob_sha": "0eacf915e552ad7366bb957d4852734e85c436af",
+  "source_commit": "ec667ac2a7ea60d75114a4d4a4745ab7a0196de3",
+  "notes": "SAS PROC SQL 'replace col3 with col2 when col2<>0' solution. Original DATA step already carries 5-row inline cards4 data; only adaptation is dropping LIBNAME sd1 \"d:/sd1\" so SD1.HAVE is created in WORK. The CASE WHEN signal <> 0 THEN signal ELSE trade END logic and column list are unchanged. Added PROC PRINT to surface the result. Deterministic across two POSTs."
+}
